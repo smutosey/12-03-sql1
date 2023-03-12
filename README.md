@@ -30,7 +30,7 @@
 > from
 > 	sakila.payment pay
 > where
-> 	pay.payment_date between "2005-06-15" and "2005-06-18"
+> 	pay.payment_date between "2005-06-15 00:00:00" and "2005-06-18 23:59:59"
 > 	and pay.amount > 10
 > ```  
 > ![img](https://github.com/smutosey/12-03-sql1/blob/main/img/2-01.png) 
